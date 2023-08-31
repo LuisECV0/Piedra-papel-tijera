@@ -8,30 +8,27 @@
 </head>
 <body>
     <div class="container">
-
         <h1>Piedra papel o tijeras</h1>
-
         <div class="pvp">
             <div class="box-player">
-                <p>Eleccion del jugador</p>
-                <img src="./imgs/papel.png" alt="" id="papel">
-                <img src="./imgs/piedra.png" alt="" id="piedra">
-                <img src="./imgs/tijeras.png" alt="" id="tijeras">
+                <p>Elección del jugador</p>
+                <div class="seleccion">
+                    <img src="./imgs/papel.png" alt="Papel" class="eleccion" id="papel">
+                    <img src="./imgs/piedra.png" alt="Piedra" class="eleccion" id="piedra">
+                    <img src="./imgs/tijeras.png" alt="Tijeras" class="eleccion" id="tijeras">
+                </div>
                 <div id="tuResultado" class="mt-4"></div>
             </div>
-
-            <div class="box-compu">
-                <p>Eleccion de la computadora</p>
-                <img src="" id="eleccionComputadora" class="eleccion" alt="">
+            <div class="box-player">
+                <p>Elección de la computadora</p>
+                <img src="" alt="" id="eleccionComputadora" class="eleccion">
                 <div id="computadoraResultado" class="mt-4"></div>
             </div>
         </div>
-
         <div class="box-resultado">
-                <h3>Score:</h3>
-                <div id="score" class="mt-2">0 - 0</div>
+            <h3>Score:</h3>
+            <div id="score" class="mt-2">0 - 0</div>
         </div>
-
     </div>
     <script src="script.js"></script>
 </body>
